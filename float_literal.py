@@ -1,0 +1,14 @@
+num1=25000000
+num2=25_000_000
+print(num1)
+print(num2)
+num=1.75e5
+print(num)
+N="100"
+x=float("2e"+N)
+while(x!=float("inf")):
+    x=float("2e"+N)
+    print(x)
+    N=int(N)
+    N+=1
+    N=str(N)

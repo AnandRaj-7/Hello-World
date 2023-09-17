@@ -1,0 +1,8 @@
+x=input("Enter a number: ")
+print(x+" rounded to 2 decimal places is "+str(round(float(x),2)))
+x=input("Enter a number: ")
+print("The absolute value of the "+x+" is "+str(abs(int(x))))
+x=input("Enter a number: ")
+y=input("Enter another number: ")
+z=float(x)-float(y)
+print(f"The difference between {float(x)} and {float(y)} is an integer? "+str(z.is_integer())+"!")

@@ -1,0 +1,6 @@
+user_input=input("Say Something : ")
+print("You said ",user_input)
+user_input1=input("Oh, Come again : ")
+print(user_input1.lower())
+user_input2=input("Come on, Say it loud my friend : ")
+print("You typed "+str(len(user_input2))+" characters !!!")
